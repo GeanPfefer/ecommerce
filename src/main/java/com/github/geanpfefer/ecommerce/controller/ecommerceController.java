@@ -1,4 +1,4 @@
-package com.github.ygorcalimanis.ecommerce.controller;
+package com.github.geanpfefer.ecommerce.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

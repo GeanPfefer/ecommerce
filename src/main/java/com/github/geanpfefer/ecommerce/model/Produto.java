@@ -1,4 +1,4 @@
-package com.github.ygorcalimanis.ecommerce.model;
+package com.github.geanpfefer.ecommerce.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

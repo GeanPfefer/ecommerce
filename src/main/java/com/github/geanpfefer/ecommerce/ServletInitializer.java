@@ -1,4 +1,4 @@
-package com.github.ygorcalimanis.ecommerce;
+package com.github.geanpfefer.ecommerce;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

@@ -1,8 +1,9 @@
-package com.github.ygorcalimanis.ecommerce.repository;
+package com.github.geanpfefer.ecommerce.repository;
 
-import com.github.ygorcalimanis.ecommerce.model.Pedido;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.github.geanpfefer.ecommerce.model.Pedido;
 
 @Repository
 public interface PedidoRepository extends JpaRepository<Pedido, Long> {
