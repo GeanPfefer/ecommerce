@@ -62,6 +62,6 @@ Item de Pedido
 
 2 - Criar scripts com massa de dados para o H2
 
-3 - Criar camada de persistencia 
+3 - Criar camada de persistencia
 
 4 - Criar endpoints CRUD usando DTOs para as entidades
