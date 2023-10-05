@@ -1,29 +1,26 @@
-# ecommerce
+# E-Commerce
 
-## Projeto de uma API de ecommerce feita em java utilizando springboot, maven e docker 
-
-[![SkillIcons](https://skillicons.dev/icons?i=java,spring,docker)](https://skillicons.dev)
+## Usage
 
 #### API Docs
 
 ```
-http://localhost:8083/swagger-ui.html
+http://localhost:8080/swagger-ui.html
 ```
 
 #### H2 Console
 
 ```
-http://localhost:8083/h2-console
+http://localhost:8080/h2-console
 ```
 
 ## Instruções de Implementação
 
-No projeto "ecommerce" desenvolvido no Checkpoint 2:
+No  projeto "ecommerce" desenvolvido no Checkpoint 2:
 
-Etidades:
+1 - Criar as entidades
 
 Cliente
-
 - id: Long (PK)
 - nome: String(100) (NN)
 - CEP: String(9)
@@ -37,7 +34,6 @@ Cliente
 - ativo: boolean  (NN)
 
 Pedido
-
 - id: Long (PK)
 - cliente: Cliente  (NN)
 - data do pedido: Instant  (NN)
@@ -46,13 +42,11 @@ Pedido
 - situacao: Enum{ATIVO, CANCELADO, ENTREGUE} (NN)
 
 Produto
-
 - id: Long (PK)
 - nome: String(100) (NN)
 - data de dadastro: Instant (NN)
 
 Item de Pedido
-
 - id: Long (PK)
 - pedido: Pedido (NN)
 - produto: Produto (NN)
@@ -65,3 +59,29 @@ Item de Pedido
 3 - Criar camada de persistencia
 
 4 - Criar endpoints CRUD usando DTOs para as entidades
+
+- 4.1 Feature - CRUD Cliente
+- 4.1.1 criar endpoint para listar clientes
+- 4.1.2 criar endpoint para pesquisar cliente por ID
+- 4.1.3 criar endpoint para criar cliente
+- 4.1.4 criar endpoint para alterar cliente
+- 4.1.5 criar endpoint para excluir cliente
+
+
+
+
+
+
+### Git Flow
+
+- branch develop a partir da master
+```
+git checkout -b develop
+git push --set-upstream origin develop
+```
+
+
+
+## Referencias
+
+- https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
